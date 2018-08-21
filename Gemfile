@@ -37,10 +37,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'slim-rails'
 gem 'devise'
-<<<<<<< HEAD
 gem 'slim-rails'
-=======
->>>>>>> origin
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 
