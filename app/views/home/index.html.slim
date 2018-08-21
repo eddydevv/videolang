@@ -2,3 +2,7 @@
   .jumbotron
     h1#header
       | Hello World
+  
+  - for user in @users
+    .card
+      h5 #{user.email}
