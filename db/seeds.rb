@@ -22,75 +22,75 @@ users = User.create([
 profiles = Profile.create(
   [{
     "id": 1,
-    "pic": "http://dummyimage.com/210x210.png/dddddd/000000",
-    "place": "Petkovci",
-    "text": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
-    "money": "¥847.99",
-    "time": 3,
-    "country": "Bosnia and Herzegovina"
+    "pic": "http://dummyimage.com/210x210.jpg/cc0000/ffffff",
+    "place": "Tonantins",
+    "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+    "money": "¥398.91",
+    "time": 4,
+    "country": "Brazil"
   }, {
     "id": 2,
-    "pic": "http://dummyimage.com/210x210.jpg/dddddd/000000",
-    "place": "Sayán",
-    "text": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
-    "money": "¥617.42",
+    "pic": "http://dummyimage.com/210x210.png/ff4444/ffffff",
+    "place": "Askim",
+    "text": "Phasellus in felis.",
+    "money": "¥450.42",
     "time": 4,
-    "country": "Peru"
+    "country": "Norway"
   }, {
     "id": 3,
-    "pic": "http://dummyimage.com/210x210.png/cc0000/ffffff",
-    "place": "Zbarazh",
-    "text": "Proin interdum mauris non ligula pellentesque ultrices.",
-    "money": "¥996.49",
+    "pic": "http://dummyimage.com/210x210.bmp/5fa2dd/ffffff",
+    "place": "Santo Domingo",
+    "text": "Nunc purus.",
+    "money": "¥676.54",
     "time": 4,
-    "country": "Ukraine"
+    "country": "Philippines"
   }, {
     "id": 4,
-    "pic": "http://dummyimage.com/210x210.png/cc0000/ffffff",
-    "place": "Trongsa",
-    "text": "Ut at dolor quis odio consequat varius. Integer ac leo.",
-    "money": "¥471.82",
+    "pic": "http://dummyimage.com/210x210.jpg/ff4444/ffffff",
+    "place": "Cherëmukhovo",
+    "text": "Nulla suscipit ligula in lacus.",
+    "money": "¥440.02",
     "time": 1,
-    "country": "Bhutan"
+    "country": "Russia"
   }, {
     "id": 5,
-    "pic": "http://dummyimage.com/210x210.png/dddddd/000000",
-    "place": "El Colorado",
-    "text": "Sed accumsan felis. Ut at dolor quis odio consequat varius.",
-    "money": "¥841.65",
-    "time": 5,
-    "country": "Argentina"
+    "pic": "http://dummyimage.com/210x210.jpg/dddddd/000000",
+    "place": "Mirovka",
+    "text": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+    "money": "¥549.08",
+    "time": 3,
+    "country": "Ukraine"
   }, {
     "id": 6,
     "pic": "http://dummyimage.com/210x210.jpg/5fa2dd/ffffff",
-    "place": "Khānaqāh",
-    "text": "In congue.",
-    "money": "¥644.85",
+    "place": "Lattes",
+    "text": "Proin risus.",
+    "money": "¥626.28",
     "time": 4,
-    "country": "Afghanistan"
+    "country": "France"
   }, {
     "id": 7,
-    "pic": "http://dummyimage.com/210x210.png/5fa2dd/ffffff",
-    "place": "Tolotangga",
-    "text": "In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
-    "money": "¥955.63",
+    "pic": "http://dummyimage.com/210x210.png/cc0000/ffffff",
+    "place": "Kebonbencoy",
+    "text": "Cras pellentesque volutpat dui.",
+    "money": "¥323.34",
     "time": 5,
     "country": "Indonesia"
   }, {
     "id": 8,
-    "pic": "http://dummyimage.com/210x210.jpg/ff4444/ffffff",
-    "place": "Aranyaprathet",
-    "text": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
-    "money": "¥848.93",
-    "time": 3,
-    "country": "Thailand"
+    "pic": "http://dummyimage.com/210x210.bmp/cc0000/ffffff",
+    "place": "Dolna Banya",
+    "text": "Maecenas rhoncus aliquam lacus.",
+    "money": "¥739.20",
+    "time": 1,
+    "country": "Bulgaria"
   }, {
     "id": 9,
-    "pic": "http://dummyimage.com/210x210.bmp/ff4444/ffffff",
-    "place": "Morales",
-    "text": "In hac habitasse platea dictumst.",
-    "money": "¥385.79",
-    "time": 5,
-    "country": "Colombia"
+    "pic": "http://dummyimage.com/210x210.jpg/dddddd/000000",
+    "place": "Benhong",
+    "text": "Vivamus in felis eu sapien cursus vestibulum.",
+    "money": "¥686.23",
+    "time": 2,
+    "country": "China"
   }]
 )
