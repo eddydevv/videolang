@@ -5,10 +5,19 @@
   
   .container
     .card-deck
-    - for user in @users
-      .card[style="width: 18rem; height: 18rem;"]
-        img.card-img-top[src="https://www.adventurouskate.com/wp-content/uploads/2013/09/DSC_0898.jpg" alt="Card Image Cap"]
-        .card-body
-          h5.card-title #{user.email}
-          p.card-text This is some text
+      - for p in @profiles
+        .col-md-4
+          .profile-card.card.border-success.mb-4[style="width: 18rem;"]
+            img.profile-card-img.card-img-top[src="#{p.pic}" alt="Card Image Cap"]
+            .profile-card-body.card-body
+              h5.card-title #{p.place}
+              p.card-text #{p.text}
+            .profile-card-footer.card-footer
+              .btn-group.text-muted
+                .btn 
+                  = fa_icon 'clock-o', text: "#{p.time}"
+                .btn 
+                  = fa_icon 'jpy', text: "#{p.money}"
+                .btn 
+                  = fa_icon 'location-arrow', text: "#{p.country}"
           
