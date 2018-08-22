@@ -3,6 +3,12 @@
     h1#header
       | Hello World
   
-  - for user in @users
-    .card
-      h5 #{user.email}
+  .container
+    .card-deck
+    - for user in @users
+      .card[style="width: 18rem; height: 18rem;"]
+        img.card-img-top[src="https://www.adventurouskate.com/wp-content/uploads/2013/09/DSC_0898.jpg" alt="Card Image Cap"]
+        .card-body
+          h5.card-title #{user.email}
+          p.card-text This is some text
+          
