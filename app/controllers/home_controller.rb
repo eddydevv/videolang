@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    @profiles = Profile.all
+    @profile_cards = ProfileCard.all
   end
 end

@@ -4,7 +4,7 @@ one:
   pic: MyString
   place: MyString
   text: MyText
-  money: MyString
+  money: 1
   time: 1
   country: MyString
 
@@ -12,6 +12,6 @@ two:
   pic: MyString
   place: MyString
   text: MyText
-  money: MyString
+  money: 1
   time: 1
   country: MyString

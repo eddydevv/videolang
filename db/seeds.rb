@@ -19,54 +19,60 @@ users = User.create([
   }
 ])
 
-profiles = Profile.create(
+profile_cards = ProfileCard.create(
   [{
     "id": 1,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Tonantins",
-    "text": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
-    "money": "¥398.91",
-    "time": 4,
-    "country": "Brazil"
+    "place": "Suncheon",
+    "text": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "money": 480,
+    "time": 5,
+    "country_code": "KR",
+    "country": "South Korea"
   }, {
     "id": 2,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Askim",
-    "text": "Phasellus in felis.",
-    "money": "¥450.42",
-    "time": 4,
-    "country": "Norway"
-  } , {
+    "place": "Sabtang",
+    "text": "Morbi quis tortor id nulla ultrices aliquet.",
+    "money": 859,
+    "time": 3,
+    "country_code": "PH",
+    "country": "Philippines"
+  }, {
     "id": 3,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Cherëmukhovo",
-    "text": "Nulla suscipit ligula in lacus.",
-    "money": "¥440.02",
-    "time": 1,
-    "country": "Russia"
+    "place": "Calatrava",
+    "text": "Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
+    "money": 338,
+    "time": 3,
+    "country_code": "PH",
+    "country": "Philippines"
   }, {
     "id": 4,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Kebonbencoy",
-    "text": "Cras pellentesque volutpat dui.",
-    "money": "¥323.34",
-    "time": 5,
-    "country": "Indonesia"
+    "place": "Şafwá",
+    "text": "Duis bibendum.",
+    "money": 623,
+    "time": 4,
+    "country_code": "SA",
+    "country": "Saudi Arabia"
   }, {
     "id": 5,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Dolna Banya",
-    "text": "Maecenas rhoncus aliquam lacus.",
-    "money": "¥739.20",
-    "time": 1,
-    "country": "Bulgaria"
+    "place": "Inashiki",
+    "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+    "money": 528,
+    "time": 4,
+    "country_code": "JP",
+    "country": "Japan"
   }, {
-    "id": 6 ,
+    "id": 6,
     "pic": "http://neotokyoproject.com/wp-content/uploads/2014/06/IMG_1689NTPEK.jpg",
-    "place": "Benhong",
-    "text": "Vivamus in felis eu sapien cursus vestibulum.",
-    "money": "¥686.23",
-    "time": 2,
-    "country": "China"
+    "place": "Dalamdesa Kalapadua",
+    "text": "Morbi quis tortor id nulla ultrices aliquet.",
+    "money": 548,
+    "time": 1,
+    "country_code": "ID",
+    "country": "Indonesia"
   }]
 )

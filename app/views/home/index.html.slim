@@ -5,19 +5,20 @@
   
   .container
     .card-deck
-      - for p in @profiles
-        .col-md-4
-          .profile-card.card.border-success.mb-4[style="width: 18rem;"]
+      - for p in @profile_cards
+        .col-md-4.col-sm-6
+          .profile-card.card.mb-4[style="width: 18rem;"]
             img.profile-card-img.card-img-top[src="#{p.pic}" alt="Card Image Cap"]
             .profile-card-body.card-body
               h5.card-title #{p.place}
               p.card-text #{p.text}
             .profile-card-footer.card-footer
-              .btn-group.text-muted
-                .btn 
-                  = fa_icon 'clock-o', text: "#{p.time}"
-                .btn 
-                  = fa_icon 'jpy', text: "#{p.money}"
-                .btn 
-                  = fa_icon 'location-arrow', text: "#{p.country}"
+              .container-fluid
+                .row.text-muted[role="group" aria-label="profile-card-footer-btn-group"]
+                  .profile-card-btn.col-sm-4 
+                    = fa_icon 'clock-o', text: "#{p.time}"
+                  .profile-card-btn.col-sm-4  
+                    = fa_icon 'jpy', text: "#{p.money}"
+                  .profile-card-btn.col-sm-4   
+                    = fa_icon 'location-arrow', text: "#{p.country_code}"
           

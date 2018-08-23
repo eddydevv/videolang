@@ -1,19 +1,30 @@
 .profile-card {
-    height: 24rem;
+    height: 22rem;
+}
+
+.profile-card-body {
+    height: 5rem;
     font-size: .9em;
-    background: rgba(green, 0.1);
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .profile-card:hover {
-    background: rgba(green, 0.2);
+    background: rgba(green, 0.1);
 }
 
 .profile-card-footer {
-    background: rgba(green, 0.2);
+    background: rgba(green, 0.1);
+    padding: 2% 0;
+}
+
+.profile-card-btn {
     padding: 0;
+    margin: 0;
+    text-align: center;
     font-size: .9em;
 }
 
 .profile-card-img {
-    height: 13rem;
+    height: 12rem;
 }

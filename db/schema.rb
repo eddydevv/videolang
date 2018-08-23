@@ -10,10 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_08_22_202620) do
+ActiveRecord::Schema.define(version: 2018_08_23_171041) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "profile_cards", force: :cascade do |t|
+    t.string "pic"
+    t.string "place"
+    t.text "text"
+    t.integer "money"
+    t.integer "time"
+    t.string "country"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "country_code"
+  end
 
   create_table "profiles", force: :cascade do |t|
     t.string "pic"
